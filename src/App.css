@@ -1,0 +1,21 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+thead th{
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(75, 44, 5) !important;
+  padding:15px !important;
+}
+tbody td{
+  text-align: center;
+  font-size:20px;
+  color:aqua !important;
+  padding:15px !important;
+}
+tbody tr:nth-of-type(even) td{
+  color:yellow !important;
+}
